@@ -1,0 +1,14 @@
+# Root files
+.DS_Store
+/node_modules
+
+# Client side files
+/client/node_modules
+
+# Server side files
+/server/config
+/server/node_modules
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
