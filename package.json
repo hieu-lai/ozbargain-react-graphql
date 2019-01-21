@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "cd server && yarn start",
     "heroku-postbuild": "cd server && yarn heroku-postbuild",
     "install-all": "cd client && yarn install && cd ../server && yarn install",
     "client": "cd client && yarn start",
